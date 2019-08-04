@@ -88,7 +88,7 @@ int WINAPI WinMain (HINSTANCE hThisInstance,
     return messages.wParam;
 }
 
-std::vector<std::string> v;
+std::vector<std::string> v;  //holds data
 
 
 LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
